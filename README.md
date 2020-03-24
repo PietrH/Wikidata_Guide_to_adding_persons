@@ -1,6 +1,10 @@
+
+# A quick guide on how to add persons to Wikidata
+
 ## Table of Contents
 
 - [A quick guide on how to add persons to Wikidata](#a-quick-guide-on-how-to-add-persons-to-wikidata)
+  - [Table of Contents](#table-of-contents)
   - [About statements](#about-statements)
     - [Adding a statement](#adding-a-statement)
     - [Adding a reference to a statement](#adding-a-reference-to-a-statement)
@@ -8,11 +12,10 @@
   - [Suggestions flag](#suggestions-flag)
   - [Some examples](#some-examples)
 
-# A quick guide on how to add persons to Wikidata
 
 Welcome to Wikidata! 
 
-Objects on wikidata have a label, a wikidata id, and a description, and optionally one or more aliases. The wikidata id is the unique identifier, and remains constant. All other values can change. The label is the name shown at the top of the page, and is useful for humans to know what the object is describing. For a person, this would be their name. The description is one line to elaborate on this, I like to stick to what the person is most known for for example: “Belgian Botanist”. The alias is used for alternative labels, abbreviations, or other names the person might be known under. 
+Objects on wikidata have a label, a wikidata id, and a description, and optionally one or more aliases. The wikidata id is the unique identifier, and remains constant. All other values can change. The label is the name shown at the top of the page, and is useful for users to know what the object is describing. For a person for example, this would be their name. The description is one line to elaborate on this, I like to stick to what the person is most known for, for example: “Belgian Botanist”. The alias is used for alternative labels, abbreviations, or other names the person might be known under. 
 
 ![welcome_to_wikipedia](images/firefox_AK8AdvmTg8.png)
 
@@ -59,7 +62,7 @@ When creating a statement, you can add a reference at the same time, or you can 
 References follow the same sort of triple structure as statements (because they are statements), for a website use the “reference url” property. When referring to a website I like to add the date as well, so I use “retrieved”. You can add more values for a reference using the add button, for a book for example you might want to add ISBN, Page, Author, Title, …
 
 ![mycology_is_what_she_does](images/iZk3sEIDt6.png)
-You can also refer to a database as a reference, for example, researchgate or Orcid might give you information about birth dates, occupation, interests, … In this case I use the “stated in” property for the database, and use the database property (here it’s ResearchGate profile ID, but just type the database name in the property field and I’ll suggest some values for you) and the database identifier in the value field.
+You can also refer to a database as a reference, for example, researchgate or ORCID might give you information about birth dates, occupation, interests, … In this case I use the “stated in” property for the database, and use the database property (here it’s ResearchGate profile ID, but just type the database name in the property field and I’ll suggest some values for you) and the database identifier in the value field.
 
 Don’t forget to hit publish when you are done.
 
@@ -81,16 +84,16 @@ You might run into this when adding a place of birth or death. As a reference is
 
 Need some inspiration? Have a look at the page I made for this guide: 
 
-https://www.wikidata.org/wiki/Q88449437
+[Eske De Crop](https://www.wikidata.org/wiki/Q88449437)
 
 Or some other pages of botanical collectors with many statements:
 
-https://www.wikidata.org/wiki/Q28913658
+[Quentin Groom](https://www.wikidata.org/wiki/Q28913658)
 
-https://www.wikidata.org/wiki/Q5894416
+[Henri Ferdinand Van Heurck](https://www.wikidata.org/wiki/Q5894416)
 
-https://www.wikidata.org/wiki/Q1450997
+[François Crépin](https://www.wikidata.org/wiki/Q1450997)
 
-You can also find a lot of information about how to use Wikidata on wikidata itself, have a look at the tours: https://www.wikidata.org/wiki/Wikidata:Tours, or this page about referencing: https://en.wikipedia.org/wiki/Help:Referencing_for_beginners
+You can also find a lot of information about how to use Wikidata on wikidata itself, have a look at the [tours](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners), or [this page](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners) about referencing.
 
 
